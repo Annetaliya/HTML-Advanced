@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Annette">
+        <meta name="description" content="detailed html">
+        <title>My First Web page</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <header>
+        <h1>My goals for the year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning html</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <article id="html">
+                <h2>Ready to learn html</h2>
+                <p>This is my first web page</p>
+                <section>
+                    <h3>HTML5</h3>
+                    <img src="img/html_logo_300x300.png" alt="HTML5 Logo" 
+                        width="300" height="300"/>
+                    <figure>
+                        <figcaption>
+                            An example of HTML5 code
+                        </figcaption>
+                        <p>
+                            <code>&lt;h1&gt;Hello world!&lt;/h1&gt;</code>
+                        </p>
+                    </figure>
+                </section>
+
+                <section>
+                    <h3>My daily schedule</h3>
+                    <p>Let me tell you how: </p>
+                        <ol>
+                            <li>...I learn more about web dev.</li>
+                            <li>...I plan out my schedule.</li>
+                            <li>...I use resources from <abbr title="Mozilla 
+                                Developer Network">
+                                <a href="https://developer.mozilla.org/en-US/">MDN</a>
+                            </abbr></li>
+                        </ol>
+                        <aside>
+                            <details>
+                                <summary>
+                                    Guess the <mark>number of hours</mark> I code per day
+
+                                </summary>
+                                <p>I start at <time datetime="08:00">8 am </time>and I write code for <time datetime="PT3H">3 hours </time>every morning</p>
+                            </details>
+                        </aside>
+                        <br>
+                        <table>
+                            <caption>
+                                My daily schedule
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Activity</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                            
+                                <tr>
+                                    <th scope="row">Morning</th>
+                                    <td>
+                                        <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+                                    </td>
+                                    <td>Write code</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Break</th>
+                                    <td>
+                                        <time datetime="11:00">11 am</time>-<time datetime="12:00">12 am</time>
+                                    </td>
+                                    <td>Eat Lunch</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Afternoon</th>
+                                    <td>
+                                        <time datetime="12:00">12 pm</time>-<time datetime="17:00">5 pm</time>
+                                    </td>
+                                    <td>Study for other courses</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Evening</th>
+                                    <td rowspan="2">All other Times</td>
+                                    <td>Free time</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Night</th>
+                                    <td>sleep</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3">And that is what I do, 5 days a week</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                </section>
+            </article>        
+            <hr>
+        <!-- Todo: Add more places -->
+            <article id="vacation">
+                <h2>I'm also planning a vacation</h2>
+                <p>I have been really working hard and <em>I really need a get away</em></p>
+                <p>I live in Nairobi so I want to visit a beach</p>
+                
+                <section>
+                    <h3>Places I would like to visit</h3>
+                    <ul>
+                        <li>
+                            <p>I have heard good things about the Caribbean</p>
+                            <figure>
+                                <img  src="img/caribbean.jpg" alt="Caribbean beach" 
+                                title="I want to visit a caribbean beach"
+                                width="400" height="225" loading="lazy"/>
+                                <figcaption>
+                                    Caribbean Beach Getaway
+                                </figcaption>
+
+                            </figure>
+                            
+                        </li>
+                        <li>
+                            <p>I have heard good things about going here:</p>
+                            <address>
+                                Margaritaville Island Reserve Riviera<br>
+                                Colonia Morelos, Mexico 77580
+                            </address>
+                            <figure>
+                                <img src="img/vacation.jpg" alt="Cancun vacation" 
+                                    title="It's 5 0'clock Somewhere!" 
+                                    loading="lazy" width="400" height="267">
+                                <figcaption>
+                                    A caribbean vacation Image
+                                </figcaption>
+
+                            </figure>
+                            
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Places I would like to avoid</h3>
+                    <dl>
+                        <dt>North Pole</dt>
+                        <dd>I heard this is <strong>cold!</strong></dd>
+                        <dt>South Pole</dt>
+                        <dd>This is also cold</dd>
+                        <dt>Mountain Tops</dt>
+                        <dd>These are also cold</dd>
+            
+                    </dl>
+                </section>
+            </article>
+        
+    </main>
+
+        
+       
+            <hr>
+            <footer>
+                <p>
+                    &lt;&lt;&lt; &copy;<a href="about.html">Annette</a>  &gt;&gt;&gt;
+                </p>
+                <p>
+                    <a href="#">Back to top</a>
+                </p>
+        </footer>
+
+    </body>
+    
+</html>
